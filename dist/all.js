@@ -1,1 +1,1 @@
-console.log("Load script.js");var app={};
+function aos_init(){AOS.init({duration:1e3,once:!0})}$(window).on("load",function(){aos_init()}),window.onscroll=function(){myFunction()};var header=document.getElementById("navbar"),sticky=header.offsetTop;function myFunction(){window.pageYOffset>sticky?header.classList.add("sticky"):header.classList.remove("sticky")}
